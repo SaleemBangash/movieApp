@@ -56,20 +56,20 @@ class _LibraryOneState extends State<LibraryOne> {
                 ),
               ),
               Positioned(
-                top: 300,
-                left: 100,
+                top: sizeConfig!.height(0.35),
+                left: sizeConfig!.height(0.08),
                 child: Column(
                   children: [
                     Text("In theaters December 22, 2021",
                         style: TextStyle(
-                            color: Colors.black,
+                            color: Colors.white,
                             fontSize: 17,
                             fontWeight: FontWeight.bold)),
                     SizedBox(
                       height: 20,
                     ),
                     Container(
-                      width: 180,
+                      width: sizeConfig!.width(0.49),
                       height: 40,
                       decoration: BoxDecoration(
                           color: Colors.blue,
@@ -84,7 +84,7 @@ class _LibraryOneState extends State<LibraryOne> {
                     ),
                     SizedBox(height: 10),
                     Container(
-                      width: 180,
+                      width: sizeConfig!.width(0.49),
                       height: 40,
                       decoration: BoxDecoration(
                           border: Border.all(color: Colors.black),
@@ -126,7 +126,7 @@ class _LibraryOneState extends State<LibraryOne> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Container(
-                      width: 80,
+                      width: sizeConfig!.width(0.19),
                       height: 30,
                       decoration: BoxDecoration(
                           color: Colors.blue,
@@ -140,7 +140,7 @@ class _LibraryOneState extends State<LibraryOne> {
                       ),
                     ),
                     Container(
-                      width: 80,
+                      width: sizeConfig!.width(0.19),
                       height: 30,
                       decoration: BoxDecoration(
                           color: Color.fromARGB(255, 233, 92, 174),
@@ -154,7 +154,7 @@ class _LibraryOneState extends State<LibraryOne> {
                       ),
                     ),
                     Container(
-                      width: 80,
+                      width: sizeConfig!.width(0.19),
                       height: 30,
                       decoration: BoxDecoration(
                           color: Color.fromARGB(255, 142, 29, 235),
@@ -168,7 +168,7 @@ class _LibraryOneState extends State<LibraryOne> {
                       ),
                     ),
                     Container(
-                      width: 80,
+                      width: sizeConfig!.width(0.19),
                       height: 30,
                       decoration: BoxDecoration(
                           color: Color.fromARGB(255, 243, 205, 33),

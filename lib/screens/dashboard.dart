@@ -21,7 +21,7 @@ class _DashboardState extends State<Dashboard> {
     return Scaffold(
       backgroundColor: Colors.grey[200],
       body: Padding(
-        padding: const EdgeInsets.only(top: 30),
+        padding: const EdgeInsets.only(top: 50),
         child: Column(
           children: [
             Padding(
@@ -46,7 +46,7 @@ class _DashboardState extends State<Dashboard> {
                   Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: Container(
-                      height: 150,
+                      height: sizeConfig!.height(0.19),
                       // width: 150,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10.0),
@@ -68,7 +68,7 @@ class _DashboardState extends State<Dashboard> {
                   Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: Container(
-                      height: 150,
+                      height: sizeConfig!.height(0.19),
                       // width: 150,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10.0),
@@ -90,7 +90,7 @@ class _DashboardState extends State<Dashboard> {
                   Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: Container(
-                      height: 150,
+                      height: sizeConfig!.height(0.19),
                       // width: 150,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10.0),
